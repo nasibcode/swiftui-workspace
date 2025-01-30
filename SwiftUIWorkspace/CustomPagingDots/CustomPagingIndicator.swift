@@ -64,13 +64,3 @@ struct CustomPagingIndicator: View {
         return Array(start...end)
     }
 }
-
-struct ContentView: View {
-    var body: some View {
-        CustomPagingIndicator()
-    }
-}
-
-#Preview(body: {
-    ContentView()
-})
